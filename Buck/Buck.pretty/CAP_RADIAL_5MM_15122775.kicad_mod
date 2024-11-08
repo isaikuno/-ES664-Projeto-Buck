@@ -1,0 +1,197 @@
+(footprint "CAP_RADIAL_5MM_15122775"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor, Polarized, Radial (Electrolytic); 5.00 mm C X 10.00 mm Dia X 20.00 mm H body\n\nPCB Libraries Packages")
+	(property "Reference" "REF**"
+		(at -3.302 -6.096 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c4cf9d64-5680-4762-88c8-5c3ab4eb206d")
+		(effects
+			(font
+				(size 1.08 1.08)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "CAP_RADIAL_5MM_15122775"
+		(at -3.556 7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "66a007ed-6284-4088-a4f7-f211ed157d6c")
+		(effects
+			(font
+				(size 1.08 1.08)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcc50723-089d-4262-b32e-932a4cb2216d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d0f262b-9c74-4812-883a-abc71c249285")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3696cec1-2eac-40f7-986b-1870aec3149d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -5.838 0)
+		(end -5.738 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f7b21dc0-7a49-4055-b13f-fde08b0fb13c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.25 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b32bc5b4-d8bb-41dc-9783-5855b787b591")
+	)
+	(fp_line
+		(start 0 -0.35)
+		(end 0 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e688721-8a0a-4825-b38c-3bc87615b206")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end -0.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d229bc1-2b66-4f95-af8d-aad51b12197e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ce1011c1-aca8-49cf-8f0a-0af326ba18cd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f592c139-e5f0-4303-bd23-a600f2bae5e8")
+	)
+	(fp_circle
+		(center -2.5 0)
+		(end -2.2 0)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2a8e293d-803e-4c83-8ab3-a22f449b3c59")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.25 0)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "dde4205f-9b00-48a4-8a38-ac0889cdb1de")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.25 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2aef1fd0-2587-4eff-8b75-07942a29601b")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 2.8 0)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5f4bf0ec-d174-4f85-b756-51c558bc3792")
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "18d38fbf-1080-411b-89f7-a9b588dc2c5d")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "7d9ac396-f5f0-4003-b2db-1d6d49bf5552")
+	)
+)

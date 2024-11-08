@@ -1,0 +1,207 @@
+(footprint "CAP-PTH-SMALL-KIT_510"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP-PTH-SMALL-KIT Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).\n\nWarning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "32611227-06d7-4f89-81b4-a712e61c95fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fdd7ca5d-a2ee-43c2-b6e1-2e6af6ede16d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "228754e5-f1b6-4050-8a04-85ee520fe6cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "903c7a23-e856-445e-8209-2dd89b3b3dad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd7adab-647c-4c8a-979a-f986e3c18741")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.667 -1.27)
+		(end 2.667 -1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c6c4638-f9e4-48df-8bfc-f98b93b5dc9d")
+	)
+	(fp_line
+		(start -2.667 1.27)
+		(end -2.667 -1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "665bd3c7-49ca-40e9-a2bf-8058c34b0272")
+	)
+	(fp_line
+		(start 0 -0.635)
+		(end 0 0.635)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4a0f216-6d97-4832-9cf7-3fd1a94a907d")
+	)
+	(fp_line
+		(start 2.667 -1.27)
+		(end 2.667 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dc90882-8453-477a-ac48-6b9ddd4cc315")
+	)
+	(fp_line
+		(start 2.667 1.27)
+		(end -2.667 1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5f62e79-70cd-4289-9fc5-41aa15ba00ac")
+	)
+	(fp_poly
+		(pts
+			(xy -1.225421 -1.003128) (xy -1.053074 -0.954254) (xy -0.891805 -0.876184) (xy -0.746553 -0.771297)
+			(xy -0.621724 -0.642794) (xy -0.521091 -0.494535) (xy -0.447734 -0.331075) (xy -0.403887 -0.157362)
+			(xy -0.390844 0.021552) (xy -0.412124 0.21619) (xy -0.471112 0.403388) (xy -0.565498 0.575483) (xy -0.69165 0.725841)
+			(xy -0.844722 0.848697) (xy -1.018837 0.939327) (xy -1.207268 0.994227) (xy -1.402013 1.011235) (xy -1.597775 0.994595)
+			(xy -1.787303 0.939861) (xy -1.962488 0.849206) (xy -2.116604 0.726136) (xy -2.243765 0.575349) (xy -2.339069 0.402647)
+			(xy -2.398843 0.214671) (xy -2.420767 0.018958) (xy -2.407274 -0.160067) (xy -2.36298 -0.333676)
+			(xy -2.289223 -0.496915) (xy -2.188228 -0.64489) (xy -2.063066 -0.773069) (xy -1.917554 -0.87756)
+			(xy -1.756101 -0.955197) (xy -1.583612 -1.003614) (xy -1.40452 -1.021422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "3c9b75e6-85f3-4541-ac91-72ed873d9c92")
+	)
+	(fp_poly
+		(pts
+			(xy 1.573679 -1.003128) (xy 1.746025 -0.954254) (xy 1.907295 -0.876184) (xy 2.052546 -0.771297) (xy 2.177375 -0.642794)
+			(xy 2.278009 -0.494535) (xy 2.351365 -0.331075) (xy 2.395212 -0.157362) (xy 2.408255 0.021552) (xy 2.386975 0.21619)
+			(xy 2.327987 0.403388) (xy 2.233601 0.575483) (xy 2.10745 0.725841) (xy 1.954377 0.848697) (xy 1.780262 0.939327)
+			(xy 1.591832 0.994227) (xy 1.397086 1.011235) (xy 1.201324 0.994595) (xy 1.011797 0.939861) (xy 0.836612 0.849206)
+			(xy 0.682495 0.726136) (xy 0.555334 0.575349) (xy 0.460031 0.402647) (xy 0.400256 0.214671) (xy 0.378333 0.018958)
+			(xy 0.391825 -0.160067) (xy 0.43612 -0.333676) (xy 0.509876 -0.496915) (xy 0.610871 -0.64489) (xy 0.736033 -0.773069)
+			(xy 0.881545 -0.87756) (xy 1.042998 -0.955198) (xy 1.215488 -1.003614) (xy 1.394579 -1.021422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "a7583d94-a2e3-43e1-8ae4-2bc61e86181b")
+	)
+	(fp_poly
+		(pts
+			(xy -1.289494 -0.501087) (xy -1.18163 -0.461283) (xy -1.085319 -0.398473) (xy -1.005402 -0.315805)
+			(xy -0.945884 -0.21744) (xy -0.909747 -0.108273) (xy -0.898833 0.005902) (xy -0.912332 0.117262)
+			(xy -0.950368 0.223061) (xy -1.010991 0.317743) (xy -1.091172 0.39656) (xy -1.186885 0.45556) (xy -1.293328 0.491779)
+			(xy -1.404131 0.503293) (xy -1.514264 0.493494) (xy -1.620446 0.45911) (xy -1.716298 0.401961) (xy -1.797045 0.324901)
+			(xy -1.858608 0.23182) (xy -1.897911 0.127369) (xy -1.912977 0.016845) (xy -1.902838 -0.099099) (xy -1.867145 -0.209914)
+			(xy -1.807687 -0.310018) (xy -1.727437 -0.39438) (xy -1.630441 -0.458765) (xy -1.521538 -0.499959)
+			(xy -1.404858 -0.516067)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "980d31d8-f40f-4c00-88d0-bd3dfb2033a2")
+	)
+	(fp_poly
+		(pts
+			(xy 1.509605 -0.501087) (xy 1.61747 -0.461284) (xy 1.713781 -0.398473) (xy 1.793697 -0.315804) (xy 1.853215 -0.21744)
+			(xy 1.889352 -0.108273) (xy 1.900267 0.005902) (xy 1.886767 0.117262) (xy 1.848731 0.223061) (xy 1.788108 0.317743)
+			(xy 1.707927 0.39656) (xy 1.612214 0.45556) (xy 1.505771 0.491779) (xy 1.394968 0.503293) (xy 1.284835 0.493494)
+			(xy 1.178654 0.45911) (xy 1.082801 0.401962) (xy 1.002054 0.324901) (xy 0.940491 0.23182) (xy 0.901188 0.127369)
+			(xy 0.886123 0.016845) (xy 0.896261 -0.099098) (xy 0.931954 -0.209914) (xy 0.991412 -0.310018) (xy 1.071662 -0.39438)
+			(xy 1.168658 -0.458765) (xy 1.277561 -0.499959) (xy 1.394242 -0.516067)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "f142f3a0-a462-4765-86a8-47106513e5d7")
+	)
+	(pad "1" thru_hole circle
+		(at -1.397 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "97a583ee-9ea0-4a4d-a9cc-ec17d4387543")
+	)
+	(pad "2" thru_hole circle
+		(at 1.397 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "32df11f4-aaff-47a9-bc1d-095346c0569b")
+	)
+)

@@ -1,0 +1,128 @@
+(footprint "INDUTOR-NUCLEO-FERRITE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.206 -18.657665 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c844c6fe-ab66-4b2d-bf92-f095f2e95d29")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "INDUTOR-NUCLEO-FERRITE"
+		(at -0.206 -0.852334 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "160c2a05-1987-47bf-9a8f-934c8953d06d")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9afc7dfc-40e4-4a55-9d69-f2748a9f4014")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb175ced-b178-4759-b271-c44f96d536bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33b9ee93-d780-43f4-80ff-62593590a660")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.206 -17.676)
+		(end 38.826 -17.676)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f06928d5-c304-4563-93e2-51b78e9b27c3")
+	)
+	(fp_line
+		(start -0.206 -2.334)
+		(end -0.206 -17.676)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc3c7efc-d010-49dc-bab6-a1372e93d97d")
+	)
+	(fp_line
+		(start 38.826 -17.676)
+		(end 38.826 -2.334)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7ad369f-e640-4d7a-ba6a-a730c2763fb5")
+	)
+	(fp_line
+		(start 38.826 -2.334)
+		(end -0.206 -2.334)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c078f218-92e0-447b-b537-9c0a22bc6c2c")
+	)
+	(pad "A1" thru_hole circle
+		(at 19.28 -5.12)
+		(size 4.016 4.016)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "13402984-7ada-43f7-82e0-520a5c87cb35")
+	)
+	(pad "A2" thru_hole circle
+		(at 19.23 -14.7)
+		(size 4.016 4.016)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "bb839590-6954-4a9c-ab4d-d496ab09ba49")
+	)
+)
