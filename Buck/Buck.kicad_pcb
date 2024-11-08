@@ -3852,7 +3852,7 @@
 	(footprint "Buck:SMD50"
 		(layer "F.Cu")
 		(uuid "a588e113-4a34-474c-a5bd-85d1e9c49616")
-		(at 98 59)
+		(at 99 59)
 		(property "Reference" "Vin-GeradorSinal1"
 			(at 1.54 -7.67 0)
 			(unlocked yes)
